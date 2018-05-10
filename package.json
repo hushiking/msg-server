@@ -1,0 +1,28 @@
+{
+  "name": "msg-server",
+  "version": "1.0.0",
+  "description": "A message server for RESTful API",
+  "main": "index.js",
+  "author": "hushiking",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha test/",
+    "travis": "istanbul cover _mocha"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "express-auto-routes": "^2.2.0",
+    "lodash": "^4.17.10",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "async": "^2.6.0",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "supertest": "^3.0.0"
+  }
+}
