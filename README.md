@@ -1,5 +1,7 @@
 # 简易留言板 RESTful API
 
+[![Build Status][travis-image]][travis-url]
+
 ## 主要用到的 Package
 
 **更多信息请看 `package.json`**
@@ -74,3 +76,6 @@ $ npm start / yarn start
 $ npm test
 ...
 ```
+
+[travis-image]: https://travis-ci.org/hushiking/msg-server.svg?branch=master
+[travis-url]: https://travis-ci.org/hushiking/msg-server
