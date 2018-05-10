@@ -1,6 +1,8 @@
 # 简易留言板 RESTful API
 
 [![Build Status][travis-image]][travis-url]
+[![Dependency Status][david-image]][david-url]
+[![Coverage Status][coveralls-img]][coveralls-url]
 
 ## 主要用到的 Package
 
@@ -79,3 +81,7 @@ $ npm test
 
 [travis-image]: https://travis-ci.org/hushiking/msg-server.svg?branch=master
 [travis-url]: https://travis-ci.org/hushiking/msg-server
+[david-image]: http://david-dm.org/hushiking/msg-server.svg?style=flat-square
+[david-url]: http://david-dm.org/hushiking/msg-server
+[coveralls-img]: https://coveralls.io/repos/github/hushiking/msg-server/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/hushiking/msg-server?branch=master
